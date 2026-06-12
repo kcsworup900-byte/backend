@@ -1,0 +1,15 @@
+{
+  name: "healing-backend"
+  version : "1.0.0"
+  description: "Backend for Healing website form emails"
+  main: "server.js"
+  scripts: {
+    start: "node server.js"
+  }
+  dependencies: {
+    express: "^4.18.2"
+    nodemailer: "^6.9.8"
+    cors: "^2.8.5"
+    dotenv: "^16.3.1"
+  }
+}
